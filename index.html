@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="img/eu.jpg"> 
+    <script src="https://kit.fontawesome.com/8db13fb9d6.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <title>Joker Geek</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Joker Geek</h1>
+    </header>
+
+    <main class="principal__container">
+        <section class="produtos__container" data-lista>
+            <h1>Meus Produtos</h1>
+        </section>
+        <section class="form__container">
+            <h1>Adicionar Produto</h1>
+        <form data-formulario>
+            <input name="titulo" id='titulo' required placeholder="Nome do produto" data-titulo>
+            <input name="descricao" id='descricao' required placeholder="Valor do produto" data-descricao>
+            <input name="imagem" id='imagem' required placeholder="Imagem do produto" data-imagem>
+        <div class="botao__container">
+            <input class="botao" id="guardar" type="submit" value="Guardar">
+            <input class="botao" id="apagar-tx" type="submit" value="Apagar">
+        </div>
+        </form>
+    </section>
+    </main>
+    <footer class="rodape">
+        <p>Victor Thiago&copy; 2024</p>
+    </footer>
+    <script src="js/mostrarProdutos.js" type="module"></script>
+    <script type="module" src="js/criarProduto.js"></script>
+    <script type="module" src="js/apagarProduto.js"></script>
+</body>
+</html>

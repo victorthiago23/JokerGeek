@@ -1,0 +1,28 @@
+{
+  "produtos": [
+    {
+      "imagem": "https://a-static.mlcdn.com.br/800x600/boneco-coringa-arkham-asylum-dc-comics-multiverse-mcfarlane-fun-divirta-se/toymaniabrinquedos/77506/fb83ae075b6cf7bde98f4ecc673ad1e9.jpeg",
+      "titulo": "Boneco Coringa",
+      "descricao": "R$30,00",
+      "id": 8
+    },
+    {
+      "imagem": "https://images.tcdn.com.br/img/img_prod/352023/boneco_action_figure_batman_arkham_city_series_3_358_1_20220222135424.jpg",
+      "titulo": "Boneco Batman",
+      "descricao": "R$30,00",
+      "id": 10
+    },
+    {
+      "imagem": "https://carrefourbr.vtexassets.com/arquivos/ids/7719711/5531802_Boneco-Superman-Mimo-Liga-da-Justica-55cm_2_Zoom.jpg?v=637354379012400000",
+      "titulo": "Boneco Superman",
+      "descricao": "R$30,00",
+      "id": 11
+    },
+    {
+      "imagem": "https://rihappy.vtexassets.com/arquivos/ids/6184245/Boneco-Articulado---DC-Comics---The-Flash---Vermelho---Sunny--2.jpg?v=638446444451930000",
+      "titulo": "Boneco Flash",
+      "descricao": "R$30,00",
+      "id": 12
+    }
+  ]
+}

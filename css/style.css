@@ -1,0 +1,127 @@
+:root {
+    --roxo: #480773;
+    --uva: #8532D9;
+    --verda: #95D904;
+    --bordo: #260101;
+    --violeta: #AB05F2;
+    --cinza: #D1C1FD;
+    --verde-esc: #2fd904;
+    --uva-claro: rgba(133, 50, 217, 0.288);
+}
+
+html{
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+h1 {
+    font-size: 24px;
+}  
+
+/*CABEÇALHO*/
+.cabecalho {
+    height: 50px;
+    max-width: 100%;
+    background-color: var(--roxo);
+    color: var(--verda);
+}
+
+/*PRODUTOS*/
+.produtos__container {
+    border: 8px solid var(--cinza);
+    border-right: none;
+    border-top: none;
+}
+
+.produtos__container h1,
+.form__container h1 {
+    color: var(--roxo);
+}
+
+.produtos__container::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  .produtos__container::-webkit-scrollbar-track {
+    background: var(--cinza);        /* color of the tracking area */
+  }
+  
+.produtos__container::-webkit-scrollbar-thumb {
+    background-color: var(--roxo);    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid var(--cinza);  /* creates padding around scroll thumb */
+  }
+
+.produtos__container img{
+    border: 5px solid var(--bordo);
+    border-radius: 8px;
+
+}
+
+/*CARD*/
+.card {
+    background-color: var(--uva);
+    border: 5px solid var(--bordo);
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+#apagar {
+    color: var(--verda);
+    cursor: pointer;
+}
+
+#apagar:hover {
+    color: var(--verde-esc);
+    transition: 0.7s;
+}
+
+/*FORMULÁRIO*/
+.form__container input{
+    border: 1px solid var(--violeta);
+    border-radius: 10px;
+    height: 35px;
+    font-size: 12px;
+    width: 300px;
+}
+
+.form__container .botao {
+    background-color: var(--violeta);
+    border-radius: 10px;
+    height: 35px;
+    width: 150px;
+    cursor: pointer;
+    color: var(--verda);
+}
+
+.form__container .botao:hover {
+    background-color: var(--roxo);
+    transition: 0.8s;
+}
+
+input:focus {
+    background-color: var(--cinza);
+    color: var(--roxo);
+}
+
+/*FOOTER*/
+.rodape {
+    margin-top: 50px;
+    height: 30px;
+    color: var(--roxo);
+    background-color: var(--verda);
+}
+
+/*MENSAGEM*/
+.mensagem {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: var(--roxo);
+}
+
+#body__concluido {
+    background-color: var(--uva-claro);
+}
